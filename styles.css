@@ -1,0 +1,53 @@
+/* typograghy */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+p{
+    color: hsl(220, 15%, 55%);
+    letter-spacing: 0.625px;
+    
+}
+.container{
+    max-width: 360px;
+    margin: 0 auto;
+
+}
+
+/* headings */
+h1{
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+/* qr-code */
+.qr-code{
+    background-color: white;
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+}
+.qr-code article:first-child picture img{
+    width: 100%;
+    border-radius: 12px;
+}
+.qr-code article:last-child{
+    padding: 22px;
+}
+
+
